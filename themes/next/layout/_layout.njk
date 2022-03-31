@@ -13,9 +13,6 @@
 
 <body itemscope itemtype="http://schema.org/WebPage"{% if theme.motion.enable %} class="use-motion"{% endif %}>
   <div class="headband"></div>
-
-  <a href="https://github.com/fies09"><img loading="lazy" width="149" height="149" src="https://github.blog/wp-content/uploads/2008/12/forkme_left_red_aa0000.png?resize=149%2C149" class="attachment-full size-full" alt="Fork me on GitHub" data-recalc-dims="1"></a>
-
   <main class="main">
     <header class="header" itemscope itemtype="http://schema.org/WPHeader">
       <div class="header-inner">
@@ -50,17 +47,17 @@
   {%- include '_third-party/quicklink.njk' -%}
 
   {{- next_inject('bodyEnd') }}
-  
+
   {% if theme.leancloud_visitors.enable %}
   	 {% include '_scripts/lean-analytics.njk' %}
   {%  endif %}
-  
+
   <!-- 页面点击小红心 -->
   <!-- <script type="text/javascript" src="/js/src/clicklove.js"></script> -->
 
   {% if theme.fireworks %}
-     <canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;" ></canvas> 
-     <script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script> 
+     <canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;" ></canvas>
+     <script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script>
      <script type="text/javascript" src="/js/src/fireworks.js"></script>
   {% endif %}
 
