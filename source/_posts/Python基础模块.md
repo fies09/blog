@@ -1,4 +1,3 @@
----
 title: Python基础模块
 copyright: true
 tags:
@@ -7,7 +6,6 @@ categories: Python
 abbrlink: 9d100b5b
 date: 2021-06-10 12:47:36
 ---
-
 1.必装模块pypiwin32  wheel:主要是为了装whl文件
 
 2,pyinstaller:将python文件转化为exe文件
@@ -15,8 +13,8 @@ date: 2021-06-10 12:47:36
 
 3,虚拟机教程
 安装:pip install -U virtualenv
-设置虚拟路径:virtualenv -p d:\dev\python\python36\python.exe\py36
-进入虚拟环境:cd py36\scripts\
+创建:virtualenv 环境名
+进入虚拟环境:script
 启动:activate
 
 4,pip文件的配置(目的,提高下载速率)
