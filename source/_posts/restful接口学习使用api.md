@@ -40,5 +40,41 @@ http://www.jikexueyuan.com/course/179.html
 
 纯文本: Python Restful API开发
 
+HTML:
+
+<head>
+  <title>Python RESTful API开发</title>
+</head>
+
+JSON:
+
+{
+
+"text": "Python Restful API开发"
+
+}
+
+
+
+3,状态转移
+
+1)HTTP协议,是一个无状态的协议
+
+2)GET,POST,PUT,DELETE
+
+3)让我们来看一个RESTful的请求
+
+curl -x GET https://api.weibo.com/2/users/show.json
+
+
+
+4,RESTful架构设计6原则
+
+1)Uniform Interface
+
+2)Stateless
+
+
+
 
 
