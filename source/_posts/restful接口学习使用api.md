@@ -14,5 +14,31 @@ categories: Web开发
 
 1,资源与URI和URL
 
-1) 资源,resources,网络上的具体信息
-2) URI,uniform resources identifier,统一资源标识符,用来唯一的标识一个资源
+1)资源,resources,网络上的具体信息
+
+2)URI,uniform resources identifier,统一资源标识符,用来唯一的标识一个资源
+
+3)URL,uniform resources locator,统一资源定位符,用来定位某个特定资源
+
+
+
+http://www.jikexueyuan.com/course/179.html
+
+
+
+测试网站: open.weibo.com
+
+打开微博api
+
+
+
+测试网站: pro.jsonlint.com
+
+
+
+2,表现层,representaion
+
+纯文本: Python Restful API开发
+
+
+
