@@ -74,7 +74,21 @@ curl -x GET https://api.weibo.com/2/users/show.json
 
 2)Stateless
 
+3)Cacheable
 
+4)Client-server
+
+5)Layered System
+
+6)Code on Demand
+
+
+
+flask文档网站: 
+
+Dormousehole.readthedocs.org/en/lastest/index.html
+
+Flask.pocoo.org/extensions/
 
 
 
