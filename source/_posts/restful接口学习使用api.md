@@ -12,3 +12,7 @@ categories: Web开发
 
 
 
+1,资源与URI和URL
+
+1) 资源,resources,网络上的具体信息
+2) URI,uniform resources identifier,统一资源标识符,用来唯一的标识一个资源
