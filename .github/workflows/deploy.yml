@@ -81,8 +81,8 @@ jobs:
           npm install hexo-cli -g
           npm install
           # 根据你安装的组件进行安装
-          npm uninstall hexo-generator-index --save
-          npm install hexo-baidu-url-submit hexo-generator-index2 hexo-symbols-count-time hexo-blog-encrypt hexo-deployer-git --save
+          npm install –save hexo-deployer-git npm install hexo-wordcount –save npm install hexo-generator-feed –save  npm install hexo-generator-searchdb –save
+          npm install gulp -g npm install gulp-minify-css –save npm install gulp-uglify –save npm install gulp-htmlmin –save npm install gulp-htmlclean –save npm install gulp-imagemin –save npm install -save hexo-helper-live2d npm install live2d-widget-model-wanko  npm install hexo-symbols-count-time –save  
           # 复制中文语言包，解决菜单英文的问题
           cp zh-CN.yml node_modules/hexo-theme-next/languages/
 
