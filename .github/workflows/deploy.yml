@@ -72,25 +72,26 @@ jobs:
           ssh-keyscan -t rsa gitee.com >> ~/.ssh/known_hosts
           git config --global user.name $GIT_USER
           git config --global user.email $GIT_EMAIL
+          apt install nodejs
+          apt install npm
 
       - name: Install dependencies
         run: |
-          npm install -g cnpm –registry=https://registry.npm.taobao.org
-          cnpm install hexo-cli -g
+          npm install hexo-cli -g
           # 根据你安装的组件进行安装
-          cnpm install –save hexo-deployer-git 
-          cnpm install hexo-wordcount –save 
-          cnpm install hexo-generator-feed –save  
-          cnpm install hexo-generator-searchdb –save
-          cnpm install gulp -g 
-          cnpm install gulp-minify-css –save 
-          cnpm install gulp-uglify –save 
-          cnpm install gulp-htmlmin –save 
-          cnpm install gulp-htmlclean –save 
-          cnpm install gulp-imagemin –save 
-          cnpm install -save hexo-helper-live2d 
-          cnpm install live2d-widget-model-wanko  
-          cnpm install hexo-symbols-count-time –save  
+          npm install –save hexo-deployer-git 
+          npm install hexo-wordcount –save 
+          npm install hexo-generator-feed –save  
+          npm install hexo-generator-searchdb –save
+          npm install gulp -g 
+          npm install gulp-minify-css –save 
+          npm install gulp-uglify –save 
+          npm install gulp-htmlmin –save 
+          npm install gulp-htmlclean –save 
+          npm install gulp-imagemin –save 
+          npm install -save hexo-helper-live2d 
+          npm install live2d-widget-model-wanko  
+          npm install hexo-symbols-count-time –save  
           # 复制中文语言包，解决菜单英文的问题
           cp zh-CN.yml node_modules/hexo-theme-next/languages/
 
