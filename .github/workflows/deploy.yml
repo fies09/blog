@@ -75,6 +75,9 @@ jobs:
 
       - name: Install dependencies
         run: |
+          npm audit fix
+          npm audit fix --force
+          npm audit
           npm install hexo-cli -g
           npm install
           # 根据你安装的组件进行安装
