@@ -79,7 +79,7 @@ jobs:
         run: |
           npm install hexo-cli -g
           # 根据你安装的组件进行安装
-          npm install –save hexo-deployer-git 
+          npm install hexo-deployer-git –save
           npm install hexo-wordcount –save 
           npm install hexo-generator-feed –save  
           npm install hexo-generator-searchdb –save
