@@ -86,9 +86,9 @@ curl -x GET https://api.weibo.com/2/users/show.json
 
 flask文档网站: 
 
-Dormousehole.readthedocs.org/en/lastest/index.html
+dormousehole.readthedocs.org/en/lastest/index.html
 
-Flask.pocoo.org/extensions/
+flask.pocoo.org/extensions/
 
 
 

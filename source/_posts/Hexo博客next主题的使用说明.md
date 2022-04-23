@@ -11,6 +11,8 @@ date: 2021-06-10 20:08:17
 ---
 
 [参考文档](https://zhuanlan.zhihu.com/p/30836436)
+[参考文档2](https://blog.csdn.net/qq_35977139/article/details/113764322)
+[参考文档3](https://blog.csdn.net/wbsu2004/article/details/122661116)
 
 一,环境Nodejs + windows
 [下载nodejs](https://nodejs.org/en/download/)
