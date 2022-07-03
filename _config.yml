@@ -114,11 +114,8 @@ theme: next
 deploy:
   type: 'git'
   ignore_hidden: false # 添加这个属性值为false
-  repo: 
-    gitHub: https://github.com/fies09/fies09.github.io.git
-    gitee: https://gitee.com/fies09/valin.git
+  repo: https://github.com/fies09/fies09.github.io.git
   branch: master
-
 
 search:
   path: search.xml

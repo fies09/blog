@@ -1,14 +1,14 @@
+---
 title: Web项目部署
 author: Mr.Fan
-abbrlink: 9fe403b8
-date: 2022-03-31 14:17
-
+abbrlink: 8fe403b8
+date: 2021-03-31 14:17
+abbrlink: '0'
 tags:
+	- web
+	- python
+categories: Web
 ---
-
-	- Web
-	- Python
-
 pm2运行命令:
 pm2 ls
 pm2 start 
